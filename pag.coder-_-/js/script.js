@@ -12,21 +12,6 @@ addTaskBtn.addEventListener("click", addTask);
 clearTasksBtn.addEventListener("click", clearTasks);
 priorityFilter.addEventListener("change", filterTasks);
 
-Swal.fire({
-    title: "Custom animation with Animate.css",
-    showClass: {
-      popup: `
-        animate__animated
-        animate__zoomIn
-      `
-    },
-    hideClass: {
-      popup: `
-        animate__animated
-        animate__rotateOutDownRight
-      `
-    }
-  });
 
 
 
@@ -165,6 +150,21 @@ function loadTasks() {
   }
 }
 
+Swal.fire({
+    title: "Custom animation with Animate.css",
+    showClass: {
+      popup: `
+        animate__animated
+        animate__zoomIn
+      `
+    },
+    hideClass: {
+      popup: `
+        animate__animated
+        animate__rotateOutDownRight
+      `
+    }
+  });
 
 
 
